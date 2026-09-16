@@ -1,0 +1,6 @@
+{
+  "name": "IntelliOnboard AI - CATMAN Cloud Ops",
+  "description": "Enterprise CATMAN cloud operations suite for customer onboarding, project lifecycles, and cloud infrastructure management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sidebar-gradient-start: #004B87;
+  --color-sidebar-gradient-end: #00B7F1;
+  --color-primary: #006688;
+  --color-primary-container: #00b7f1;
+  --color-on-primary: #ffffff;
+  --color-primary-fixed: #c2e8ff;
+  --color-primary-fixed-dim: #75d1ff;
+  --color-on-primary-fixed: #001e2b;
+  --color-on-primary-fixed-variant: #004d67;
+  
+  --color-secondary: #27609d;
+  --color-secondary-container: #89bcff;
+  --color-secondary-fixed: #d3e4ff;
+  --color-on-secondary-fixed: #001c38;
+  --color-on-secondary-container: #004a86;
+  
+  --color-tertiary: #006491;
+  --color-tertiary-container: #37b4f9;
+  --color-tertiary-fixed: #c9e6ff;
+  --color-tertiary-fixed-dim: #8aceff;
+  --color-on-tertiary-fixed: #001e2f;
+  
+  --color-background: #f8f9ff;
+  --color-background-alt: #F5FAFD;
+  
+  --color-surface: #FFFFFF;
+  --color-surface-bright: #f8f9ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #eff4ff;
+  --color-surface-container: #e6eeff;
+  --color-surface-container-high: #dee9fc;
+  --color-surface-container-highest: #d9e3f6;
+  
+  --color-on-surface: #121c2a;
+  --color-on-surface-variant: #3d484f;
+  
+  --color-outline: #6d7980;
+  --color-outline-variant: #bcc8d0;
+  
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-info: #2563EB;
+  --color-border-subtle: #E5E7EB;
+
+  --spacing-sidebar-width: 280px;
+  --spacing-header-height: 72px;
+  --spacing-container-padding: 32px;
+  --spacing-gutter: 24px;
+  --spacing-base: 8px;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: var(--color-background-alt);
+  color: var(--color-on-surface);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.material-symbols-outlined.fill {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
